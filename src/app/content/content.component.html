@@ -1,0 +1,7 @@
+<div class="wrapper">
+  <app-first-press [pressText]="firstText" [pressDate]="firstDate" [imgName]="firstImg" ></app-first-press>
+  <app-second-press [pressSecondText]="secondFirstText" [pressSecondDate]="secondFirstDate" ></app-second-press>
+  <app-first-press  [pressText] = "secondText" [pressDate]="secondDate" [imgName]="secondImg"></app-first-press>
+  <app-press-fourth [pressText]="texts[1]" [pressRegion]="regions[0]" [imgName]="fourthImg"></app-press-fourth>
+  <app-press-third [pressText]="texts[0]"  [pressRegion]="regions[0]" [imgName]="thirdImg"></app-press-third>
+</div>

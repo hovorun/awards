@@ -1,0 +1,225 @@
+.container {
+  margin-top: 114px;
+  margin-bottom: 83px;
+  background-image: linear-gradient(-45deg, #1f2037 0%, #302f4e 99%, #302f4e 100%);
+}
+.container__wrapper {
+  display: flex;
+  max-width: 1525px;
+  margin: 0 auto;
+
+}
+
+.container__firstElement {
+  padding: 50px 0;
+  color: #ffffff;
+  border-left: 1px solid #42415b;
+  border-right: 1px solid #42415b;
+  font-family: Roboto,sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 380px;
+  flex-basis: 25%;
+}
+
+.container__FirstElementText {
+  font-size: 14px;
+  font-family: "Roboto - Bold", sans-serif;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.container__firstElement p {
+  padding-left: 20px;
+}
+
+.container__secondElement {
+  padding: 50px 0;
+  border-left: 1px solid #42415b;
+  border-right: 1px solid #42415b;
+  color: #ffffff;
+  font-family: Roboto,sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 380px;
+  flex-basis: 25%;
+}
+
+.container__SecondElementText {
+  font-size: 14px;
+  font-family: "Roboto - Bold", sans-serif;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.container__secondElement p {
+  padding-left: 20px;
+}
+
+.container__thirdElement {
+  padding: 50px 0;
+  border-left: 1px solid #42415b;
+  border-right: 1px solid #42415b;
+  color: #ffffff;
+  font-family: Roboto,sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 380px;
+  flex-basis: 25%;
+}
+
+.container__thirdElementText {
+  font-size: 14px;
+  font-family: "Roboto - Bold", sans-serif;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.container__thirdElement p {
+  padding-left: 20px;
+}
+
+.contact {
+  border-left: 1px solid #42415b;
+  border-right: 1px solid #42415b;
+  display: flex;
+  justify-content: center;
+  max-width: 380px;
+  flex-basis: 25%;
+  align-items: center;
+}
+
+.contact__link {
+  padding-left: 30px;
+}
+
+
+.traiding {
+  display: flex;
+  flex-direction: column;
+  /*max-width: 1160px;*/
+  max-width: 1560px;
+  margin: 0 auto;
+}
+
+.traiding__first {
+  display: flex;
+  justify-content: space-between;
+}
+
+.traiding__second {
+  display: flex;
+  padding-left: 261px;
+}
+
+.traiding__second_about {
+  flex-basis: 20%;
+}
+
+
+.traiding__first_information {
+  flex-basis: 20%;
+}
+
+.traiding__first_assets_text,
+.traiding__first_tools_text,
+.traiding__first_types_text,
+.traiding__first_platforms_text,
+.traiding__first_education_text,
+.traiding__second_about_text,
+.traiding__second_information_text{
+  font-family: Roboto,sans-serif;
+  text-transform: uppercase;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 28px;
+}
+
+
+.traiding__first_assets_list,
+.traiding__first_tools_list,
+.traiding__first_types_list,
+.traiding__first_platforms_list,
+.traiding__first_education_list,
+.traiding__second_about_list,
+.traiding__second_information_list{
+  padding: 0;
+  list-style-type: none;
+}
+
+.traiding__first_assets_list li a,
+.traiding__first_tools_list li a,
+.traiding__first_types_list li a,
+.traiding__first_platforms_list li a,
+.traiding__first_education_list li a,
+.traiding__second_about_list li a,
+.traiding__second_information_list li a{
+  font-family: Roboto, sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  text-decoration: none;
+  color: #71727c;
+  line-height: 28px;
+}
+
+.traiding__first_assets,
+.traiding__first_types,
+.traiding__first_tools,
+.traiding__first_platforms,
+.traiding__first_education,
+.footer__img{
+  flex-basis: 16%;
+}
+
+
+.footer__img {
+  /*margin-left: -180px;*/
+  /*margin-right: -60px;*/
+}
+
+.traiding__copyright {
+  padding-top: 50px;
+  padding-bottom: 95px;
+  opacity: 0.75;
+  color: #1f2037;
+  font-family: Roboto,sans-serif;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 28px;
+  padding-left: 261px;
+
+}
+
+
+.disclaimer {
+  display: flex;
+  max-width: 1530px;
+  margin: 0 auto;
+  justify-content: center;
+  border-radius: 12px;
+  background-color: #eceef2;
+  margin-bottom: 121px;
+}
+
+.disclaimer__text {
+  padding-top: 10px;
+  flex-basis: 90%;
+  opacity: 0.75;
+  color: #1f2037;
+  font-family: Roboto,sans-serif;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 20px;
+}
